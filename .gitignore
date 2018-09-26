@@ -1,0 +1,9 @@
+backup-*
+
+FilterTool.jar
+FilterTool.options
+
+*.jar
+blcmm_*
+
+Win32
