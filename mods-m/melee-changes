@@ -1,0 +1,57 @@
+
+BLW         post melee/shot  [burst]
+    - +1 accuracy                   
+    - +1 pistol dmg                
+    - heal on crit
+
+Resurgence  post event
+    - event: melee hit [sustained]
+    - +0.7 fire rate                x1.7
+    - +0.7 pistol dmg               x1.7
+    - +2 critical A                 x.5
+
+LTW         while moving
+    - x0.3 bloom
+    - bullet reflection
+    - +0.34 pistol dmg              x1.34
+    - +2 critical A                 x.3          -- =x4
+
+Fearless    empty shield
+    - +1 projectiles                x2
+    - +1 critical B                 x.3
+    - +1 bullet velocity           
+    - +0.7 fire rate                x1.7        UNIMPLEMENTED
+
+CounterStrike   [RAID]              sustained is high enough (even to remove kunai slag), burst is too low, probabilistic => sustained != burst
+    - event: melee hit [burst]
+    - 10% trigger chance, more on empty shield, require Assassin_Is_Stealthed?
+    - Immediately recharge deception on using this                
+    - +27 melee dmg preadd          x10 melee dmg (weapons preadd melee dmg too)
+        - 
+
+
+
+
+pistol dmg                          x3          2.4             2
+fire rate                           x2.4        1.7             2.4
+critical A                          x5          3               5
+critical B                          x2          2               2
+
+
+-- possibly use with optics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
