@@ -216,6 +216,7 @@ fearless = skillA("GD_Assassin_Skills.Cunning.Fearless", {
             ModifierType="MT_Scale",
             BaseModifierValue=kValue(-0.05),
             PerGradeUpgrade=kValue(-0.05)),
+    ] + [
         attr(
             AttributeToModify="AttributeDefinition'D_Attributes.Weapon.WeaponProjectilesPerShot'",
             EffectTarget="TARGET_None",
@@ -223,29 +224,21 @@ fearless = skillA("GD_Assassin_Skills.Cunning.Fearless", {
             BaseModifierValue=value(0, "AttributeDefinition'D_Attributes.WeaponType.Weapon_Is_Sniper_Rifle'", None, 1)),
         attr(
             AttributeToModify="AttributeDefinition'D_Attributes.Weapon.WeaponProjectileSpeedMultiplier'",
-            EffectTarget="TARGET_None",
-            ModifierType="MT_PreAdd",
-            BaseModifierValue=value(0, "AttributeDefinition'D_Attributes.WeaponType.Weapon_Is_Sniper_Rifle'", None, -0.8)),
-    ]
-})
-
-
-##
-mmfFeedback = skillA("GD_Assassin_Skills.Bloodshed.ManyMustFall_Feedback", {
-    "SkillEffectDefinitions": [
-        attr(
-            AttributeToModify="AttributeDefinition'D_Attributes.Weapon.WeaponPerShotAccuracyImpulse'",
-            EffectTarget="TARGET_None",
-            ModifierType="MT_Scale",
-            BaseModifierValue=kValue(1),
-            PerGradeUpgrade=zeroValue),
-        attr(
-            AttributeToModify="DesignerAttributeDefinition'GD_Assassin_Skills.Misc.Att_CounterStrike_ActivationChance'",
             EffectTarget="TARGET_Self",
-            ModifierType="MT_PostAdd",
-            BaseModifierValue=kValue(-1),
-            PerGradeUpgrade=zeroValue),
-    ],
+            ModifierType="MT_Scale",
+            BaseModifierValue=value(0, "AttributeDefinition'D_Attributes.WeaponType.Weapon_Is_Sniper_Rifle'", None, -0.8)),
+    ] + [
+        attr(
+            AttributeToModify="AttributeDefinition'D_Attributes.DamageTypeModifers.InstigatedShockDamageModifier'",
+            EffectTarget="TARGET_Self",
+            ModifierType="MT_Scale",
+            BaseModifierValue=kValue(2)),
+        attr(
+            AttributeToModify="AttributeDefinition'D_Attributes.DamageTypeModifers.InstigatedShockStatusDamageModifier'",
+            EffectTarget="TARGET_Self",
+            ModifierType="MT_Scale",
+            BaseModifierValue=kValue(2)),
+    ]
 })
 
 ## execute
@@ -266,6 +259,8 @@ fastDeception = skillA("GD_Assassin_Skills.ActionSkill.ActionSkill_Deception:Beh
 fastDeception2 = skillA("GD_Assassin_Skills.ActionSkill.SpecialMove_SpawnHologram_1stPerson", {
     "PlayRate": "10",
 })
+
+
 
 
 ### main
