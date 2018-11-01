@@ -232,12 +232,12 @@ fearless = skillA("GD_Assassin_Skills.Cunning.Fearless", {
             AttributeToModify="AttributeDefinition'D_Attributes.DamageTypeModifers.InstigatedShockDamageModifier'",
             EffectTarget="TARGET_Self",
             ModifierType="MT_Scale",
-            BaseModifierValue=kValue(2)),
+            BaseModifierValue=kValue(1)),
         attr(
             AttributeToModify="AttributeDefinition'D_Attributes.DamageTypeModifers.InstigatedShockStatusDamageModifier'",
             EffectTarget="TARGET_Self",
             ModifierType="MT_Scale",
-            BaseModifierValue=kValue(2)),
+            BaseModifierValue=kValue(1)),
     ]
 })
 
