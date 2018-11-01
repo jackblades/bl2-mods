@@ -1,9 +1,12 @@
+.vscode
 backup-*
-
 FilterTool.jar
 FilterTool.options
+BLCMM_Launcher.jar
 
+*.pyc
 *.jar
 blcmm_*
 
 Win32
+
