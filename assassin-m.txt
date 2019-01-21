@@ -2,18 +2,8 @@ exec zeroskills-m.txt
 exec offline/mobcom
 exec offline/slayercom
 exec offline/Dagger
-# exec offline/Katana
-# exec offline/mustang
-
-exec offline/Fast_Travels2.txt
-# exec offline/loot.txt
-# exec offline/FarmFest.txt
 
 exec offline/pimpskin
-# exec offline/Ranger.txt
-exec mods-m/RegenSnipers.txt
-
-set GD_Weap_Pistol.Barrel.Pistol_Barrel_Vladof_Infinity CustomFiringModeDefinition FiringModeDefinition'GD_Weap_Pistol.FiringModes.Bullet_Pistol_Infinity'
 
 set GD_Weap_Pistol.Barrel.Pistol_Barrel_Vladof_Infinity ExternalAttributeEffects ((AttributeToModify=ResourcePoolAttributeDefinition'D_Attributes.AccuracyResourcePool.AccuracyMaxValue',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=-3.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=ResourcePoolAttributeDefinition'D_Attributes.AccuracyResourcePool.AccuracyMinValue',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=-3.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.DamageSourceModifiers.InstigatedMeleeDamageModifier',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=2.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000))) 
 
