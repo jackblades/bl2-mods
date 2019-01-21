@@ -3,14 +3,14 @@ exec offline/mobcom
 exec offline/slayercom
 exec offline/Dagger
 # exec offline/Katana
-exec offline/mustang
+# exec offline/mustang
 
 exec offline/Fast_Travels2.txt
-exec offline/loot.txt
+# exec offline/loot.txt
 # exec offline/FarmFest.txt
 
 exec offline/pimpskin
-exec offline/Ranger.txt
+# exec offline/Ranger.txt
 exec mods-m/RegenSnipers.txt
 
 set GD_Weap_Pistol.Barrel.Pistol_Barrel_Vladof_Infinity CustomFiringModeDefinition FiringModeDefinition'GD_Weap_Pistol.FiringModes.Bullet_Pistol_Infinity'
