@@ -22,7 +22,7 @@
     - small spread cone
 - CounterStrike [for RAIDING]
     - Melee hit in deception has a chance to give a stack of FRENZY
-    - Stacks last 90s
+    - Stacks last 90s max, and all stacks are lost on kill (useful for raiding)
     - Each FRENZY stack gives +150% Ambush damage, +33% cooldown rate
     - Chance without 'Slayer of Terra' com at 10 points: 12%
     - Chance with 'Slayer of Terra' com at 10 points: 112%
